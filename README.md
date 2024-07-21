@@ -33,3 +33,14 @@ After a while, the vendor API serving doctors will be accessible on `http://loca
 - It's up to you how much time you want to spend.
 - If you could do something better, but it's too much work, please put a comment on what you would improve.
 - If something is unclear, don't hesitate to ask.
+
+
+# How to run the challenge:
+
+## Important aspects
+The project has now a Makefile for easiness of usage.
+The dockerized project uses symfony-docker (based on FrankenPHP), which is kind of recommended by Symfony https://symfony.com/doc/current/setup/docker.html, which provides a quick way to start the project.
+
+## Start the project 
+ 
+1. Run `make start` to build and start the project.
