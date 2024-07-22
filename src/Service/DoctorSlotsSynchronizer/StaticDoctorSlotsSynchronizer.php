@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\Service\DoctorSlotsSynchronizer;
 
 class StaticDoctorSlotsSynchronizer extends DoctorSlotsSynchronizer
 {
